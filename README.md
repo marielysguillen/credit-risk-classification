@@ -80,4 +80,23 @@ Name functions and variables with lowercase characters, with words separated by 
 Follow DRY (Don’t Repeat Yourself) principles, creating maintainable and reusable code. 
 
 Use concise logic and creative engineering where possible. 
+
+
+
+Credit Risk Analysis Report:
+
+Purpose of Analysis: 
+The aim of this analysis is to develop and assess the accuracy of a data model designed to predict the creditworthiness of potential borrowers in peer-to-peer lending services. 
+
+Results:
+Predicting healthy loans, the model was 100% precise, though the model was only 87% precise in predicting high-risk loans. 
+Accuracy 94%
+The model had 100% recall in predicting healthy loans, and 95% recall in predicting high-risk loans
+
+Summary:
+The dataset, underwent a split into training and testing sets. Utilizing the machine learning technique, LogisticRegression module from scikit-learn, an initial logistic regression model was constructed using the training set. Subsequently, this model was applied to the testing dataset to ascertain whether a loan to a borrower would be categorized as healthy-risk or high-risk.
+For healthy loans, the model achieves perfect precision, recall, and F1-score, indicating that it accurately identifies all instances of healthy loans in the dataset without any false positives or false negatives.
+Regarding high-risk loans, the model maintains high precision (0.87), suggesting that when it predicts a loan as high-risk,
+It is correct approximately 87% of the time. Additionally, it demonstrates high recall (0.95), indicating that it effectively captures 95% of actual high-risk loans. The F1-score, a balanced measure of precision and recall.
+
  
